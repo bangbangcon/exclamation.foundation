@@ -10,4 +10,4 @@ Exclamation Foundation is the organizing body behind !!Con.
 
 ## About !F
 
-Exclamation Foundation (!F), est. 2019, is a corporation established for running !!Con and !!Con West. Previously, the organizers used a corporation called "Bang Bang Corn, LLC" because _someone_ made a typo when registering the domain name. ¯\\\_(ツ)\_\/¯
+Exclamation Foundation, est. 2019, is a corporation established for running !!Con and !!Con West. Previously, the organizers used a corporation called "Bang Bang Corn, LLC" because _someone_ made a typo when registering the domain name. ¯\\\_(ツ)\_/¯
