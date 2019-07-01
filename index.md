@@ -1,4 +1,4 @@
-Exclamation Foundation is the name of the organizing body behind !!Con.
+Exclamation Foundation is the organizing body behind !!Con.
 
 ## [!!Con](http://bangbangcon.com)
 
