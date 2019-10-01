@@ -1,3 +1,7 @@
+---
+layout: default
+title: Exclamation Foundation
+---
 Exclamation Foundation is the organizing body behind !!Con.
 
 ## [!!Con](http://bangbangcon.com)
