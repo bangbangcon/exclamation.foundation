@@ -43,10 +43,10 @@ const updateAll = () => {
   allExclamations.forEach((exclamation) => {
     // Reset if we've hit the bottom
     if (exclamation.top > 100) {
-      exclamation.top = -40;
+      exclamation.top = -10;
       exclamation.speed = 0.03 + (Math.random() * 0.1)
       exclamation.div.style.color = createRGB();
-      exclamation.firstChild.style.width = 30 + Math.random() * 20;
+      exclamation.div.firstChild.style.width = 30 + Math.random() * 20;
     }
     // Update position
     exclamation.top += exclamation.speed;
