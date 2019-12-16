@@ -38,12 +38,17 @@ aren’t tax-deductible.</p>
 }
 </style>
 
-<p><button class="donate" id="checkout-button-sku_GMuihlRjNqXPst" role="link"> $64 </button>
-<button class="donate" id="checkout-button-sku_GMv4O06zXp4ryP" role="link"> $128 </button>
-<button class="donate" id="checkout-button-sku_GMv4xwl32ti7Ew" role="link"> $256 </button>
-<button class="donate" id="checkout-button-sku_GMv4od4Xlo3IdY" role="link"> $512 </button>
-<button class="donate" id="checkout-button-sku_GMv4d2CKvex5Ey" role="link"> $1024 </button>
-<button class="donate" id="checkout-button-sku_GMv4ZsQwUfsH1R" role="link"> $2048 </button></p>
+<!--
+I didn't want to implement a backend server, so I hardcoded 7 "products" in the
+Stripe dashboard that each have a fixed price and then have Stripe handle the
+checkout.
+-->
+<p><button class="donate" id="sku_GMuihlRjNqXPst" role="link"> $64 </button>
+<button class="donate" id="sku_GMv4O06zXp4ryP" role="link"> $128 </button>
+<button class="donate" id="sku_GMv4xwl32ti7Ew" role="link"> $256 </button>
+<button class="donate" id="sku_GMv4od4Xlo3IdY" role="link"> $512 </button>
+<button class="donate" id="sku_GMv4d2CKvex5Ey" role="link"> $1024 </button>
+<button class="donate" id="sku_GMv4ZsQwUfsH1R" role="link"> $2048 </button></p>
 
 <div id="error-message"></div>
 
@@ -51,11 +56,12 @@ aren’t tax-deductible.</p>
 (function() {
   var stripe = Stripe('pk_live_koKnlQ7E5iTTPGaoTaUMdetW00Sysb0rJv');
 
+  // Add an event handler for each SKU
   var skus = ["sku_GMv4ZsQwUfsH1R", "sku_GMv4d2CKvex5Ey", "sku_GMv4od4Xlo3IdY", "sku_GMv4xwl32ti7Ew", "sku_GMv4O06zXp4ryP", "sku_GMuihlRjNqXPst"]
   for (var i = 0; i < skus.length; i++) {
-      var sku = skus[i]
-      var checkoutButton = document.getElementById('checkout-button-' + sku);
-      checkoutButton.addEventListener('click', function () {
+      var checkoutButton = document.getElementById(skus[i]);
+      checkoutButton.addEventListener('click', function(event) {
+        var sku = event.target.id;
         stripe.redirectToCheckout({
           items: [{sku: sku, quantity: 1}],
           successUrl: window.location.protocol + '//exclamation.foundation/thankyou.html',
