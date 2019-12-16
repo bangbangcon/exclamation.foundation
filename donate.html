@@ -28,7 +28,7 @@ aren’t tax-deductible.</p>
 
 <style type="text/css">
 .donate {
-    background-color:#6772E5;
+    background-color:#b7b;
     color:#FFF;
     padding:8px 12px;
     margin-right: 8px;
@@ -52,14 +52,14 @@ aren’t tax-deductible.</p>
   var stripe = Stripe('pk_live_koKnlQ7E5iTTPGaoTaUMdetW00Sysb0rJv');
 
   var skus = ["sku_GMv4ZsQwUfsH1R", "sku_GMv4d2CKvex5Ey", "sku_GMv4od4Xlo3IdY", "sku_GMv4xwl32ti7Ew", "sku_GMv4O06zXp4ryP", "sku_GMuihlRjNqXPst"]
-  for (int i = 0; i < skus.length; i++) {
+  for (var i = 0; i < skus.length; i++) {
       var sku = skus[i]
-      var checkoutButton = document.getElementById('checkout-button' + sku);
+      var checkoutButton = document.getElementById('checkout-button-' + sku);
       checkoutButton.addEventListener('click', function () {
         stripe.redirectToCheckout({
           items: [{sku: sku, quantity: 1}],
-          successUrl: window.location.protocol + '//exclamation.foundation/success',
-          cancelUrl: window.location.protocol + '//exclamation.foundation/canceled',
+          successUrl: window.location.protocol + '//exclamation.foundation/thankyou.html',
+          cancelUrl: window.location.protocol + '//exclamation.foundation/donate.html',
         })
         .then(function (result) {
           if (result.error) {
@@ -72,31 +72,10 @@ aren’t tax-deductible.</p>
 })();
 </script>
 
-<script>
-(function() {
-  var stripe = Stripe('pk_live_koKnlQ7E5iTTPGaoTaUMdetW00Sysb0rJv');
-
-  var checkoutButton = document.getElementById('checkout-button-sku_GMuzBHwXs1q0Er');
-  checkoutButton.addEventListener('click', function () {
-    stripe.redirectToCheckout({
-      items: [{sku: 'sku_GMuzBHwXs1q0Er', quantity: 1}],
-      successUrl: window.location.protocol + '//exclamation.foundation/thankyou.html',
-    })
-    .then(function (result) {
-      if (result.error) {
-        var displayError = document.getElementById('error-message');
-        displayError.textContent = result.error.message;
-      }
-    });
-  });
-})();
-</script>
-
-
-
       </section>
       <footer>
         <p><small>Hosted on GitHub Pages</small></p>
       </footer>
     </div>
   </body>
+</html>
