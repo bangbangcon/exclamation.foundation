@@ -43,7 +43,11 @@ I didn't want to implement a backend server, so I hardcoded 7 "products" in the
 Stripe dashboard that each have a fixed price and then have Stripe handle the
 checkout.
 -->
-<p><button class="donate" id="sku_GMuihlRjNqXPst" role="link"> $64 </button>
+<p>
+
+<button class="donate" id="sku_JO53RG2ZPWAwbf" role="link"> $16 </button>
+<button class="donate" id="sku_JO52vXZH8dayp9" role="link"> $32 </button>
+<button class="donate" id="sku_GMuihlRjNqXPst" role="link"> $64 </button>
 <button class="donate" id="sku_GMv4O06zXp4ryP" role="link"> $128 </button>
 <button class="donate" id="sku_GMv4xwl32ti7Ew" role="link"> $256 </button>
 <button class="donate" id="sku_GMv4od4Xlo3IdY" role="link"> $512 </button>
@@ -57,7 +61,7 @@ checkout.
   var stripe = Stripe('pk_live_koKnlQ7E5iTTPGaoTaUMdetW00Sysb0rJv');
 
   // Add an event handler for each SKU
-  var skus = ["sku_GMv4ZsQwUfsH1R", "sku_GMv4d2CKvex5Ey", "sku_GMv4od4Xlo3IdY", "sku_GMv4xwl32ti7Ew", "sku_GMv4O06zXp4ryP", "sku_GMuihlRjNqXPst"]
+  var skus = ["sku_JO53RG2ZPWAwbf", "sku_JO52vXZH8dayp9", "sku_GMv4ZsQwUfsH1R", "sku_GMv4d2CKvex5Ey", "sku_GMv4od4Xlo3IdY", "sku_GMv4xwl32ti7Ew", "sku_GMv4O06zXp4ryP", "sku_GMuihlRjNqXPst"]
   for (var i = 0; i < skus.length; i++) {
       var checkoutButton = document.getElementById(skus[i]);
       checkoutButton.addEventListener('click', function(event) {
