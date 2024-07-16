@@ -23,6 +23,6 @@ If you want to get in touch, you can [e-mail the Board of Directors](mailto:boar
 Our mailing address is:
 ```
 Exclamation Foundation
-340 South Lemon Ave #2121
-Walnut, CA 91789
+440 N Barranca Ave #2121
+Covina, CA 91723
 ```
