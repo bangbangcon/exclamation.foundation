@@ -4,13 +4,13 @@ title: Exclamation Foundation
 ---
 Exclamation Foundation is the organizing body behind !!Con.
 
-## [!!Con](http://bangbangcon.com)
+## [!!Con](https://bangbangcon.com)
 
-!!Con (pronounced “bang bang con”) is two days of ten-minute talks (with lots of breaks, of course!) to celebrate the joyous, exciting, and surprising moments in computing. !!Con takes place in NYC, usually in early May. It has run every year since 2014.
+!!Con (pronounced “bang bang con”) is two days of ten-minute talks (with lots of breaks, of course!) to celebrate the joyous, exciting, and surprising moments in computing. From [2014](https://bangbangcon.com/2014) to [2019](https://bangbangcon.com/2019), !!Con took place in NYC. It took place online from [2020](https://bangbangcon.com/2020) through [2022](https://bangbangcon.com/2022), and will take place in Santa Cruz, California in [2024](https://bangbangcon.com).
 
-## [!!Con West](http://bangbangcon.com/west)
+## [!!Con West](https://bangbangcon.com/west)
 
-!!Con West is the west-coast version of !!Con and takes place in Santa Cruz, CA. The first one took place in 2019.
+!!Con West, the west-coast edition of !!Con, took place in Santa Cruz, CA in [2019](https://bangbangcon.com/west/2019). and [2020](https://bangbangcon.com/west/).
 
 ## About !F
 
