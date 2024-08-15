@@ -10,7 +10,7 @@ Exclamation Foundation is the organizing body behind !!Con.
 
 ## [!!Con West](https://bangbangcon.com/west)
 
-!!Con West, the west-coast edition of !!Con, took place in Santa Cruz, CA in [2019](https://bangbangcon.com/west/2019). and [2020](https://bangbangcon.com/west/).
+!!Con West, the west-coast edition of !!Con, took place in Santa Cruz, CA in [2019](https://bangbangcon.com/west/2019) and [2020](https://bangbangcon.com/west/).
 
 ## About !F
 
