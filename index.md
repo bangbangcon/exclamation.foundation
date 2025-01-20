@@ -2,11 +2,11 @@
 layout: default
 title: Exclamation Foundation
 ---
-Exclamation Foundation is the organizing body behind !!Con.
+Exclamation Foundation was the organizing body behind !!Con.
 
 ## [!!Con](https://bangbangcon.com)
 
-!!Con (pronounced “bang bang con”) is two days of ten-minute talks (with lots of breaks, of course!) to celebrate the joyous, exciting, and surprising moments in computing. From [2014](https://bangbangcon.com/2014) to [2019](https://bangbangcon.com/2019), !!Con took place in NYC. It took place online from [2020](https://bangbangcon.com/2020) through [2022](https://bangbangcon.com/2022), and will take place in Santa Cruz, California in [2024](https://bangbangcon.com).
+!!Con (pronounced “bang bang con”) was two days of ten-minute talks (with lots of breaks, of course!) to celebrate the joyous, exciting, and surprising moments in computing. From [2014](https://bangbangcon.com/2014) to [2019](https://bangbangcon.com/2019), !!Con took place in NYC. It took place online from [2020](https://bangbangcon.com/2020) through [2022](https://bangbangcon.com/2022), and took place in Santa Cruz, California in [2024](https://bangbangcon.com).
 
 ## [!!Con West](https://bangbangcon.com/west)
 
@@ -14,11 +14,15 @@ Exclamation Foundation is the organizing body behind !!Con.
 
 ## About !F
 
-Exclamation Foundation, est. 2019, is a nonprofit entity established for running !!Con and !!Con West. Previously, the organizers used a corporation called "Bang Bang Corn, LLC" (yes, "corn" - it's a long story).
+Exclamation Foundation, est. 2019, was a nonprofit entity established for running !!Con and !!Con West. Previously, the organizers used a corporation called "Bang Bang Corn, LLC" (yes, "corn" - it's a long story).
+
+The foundation ran until 2025, when it was dissolved after the final !!con.
 
 ## Contact
 
-If you want to get in touch, you can [e-mail the Board of Directors](mailto:board@exclamation.foundation).
+Until our accounts expire in mid-to-late 2025, you can reach us by:
+
+E-mailing [the Board of Directors](mailto:board@exclamation.foundation).
 
 Our mailing address is:
 ```
